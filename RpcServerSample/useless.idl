@@ -1,0 +1,9 @@
+[
+	uuid(aaf3c26e-2970-42db-9189-f2bc0e073e7c),
+	version(1.0)
+]
+interface useless
+{
+	void UselessProc([in, string] unsigned char* pszInput);
+	void Shutdown(void);
+}
